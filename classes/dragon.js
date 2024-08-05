@@ -18,9 +18,8 @@ class Dragon{
   }
 }
 
-const puff = new Dragon("Puff", "green");
-const toothless = new Dragon("Toothless", "black");
-console.log(Dragon.getDragons(puff, toothless));
+module.exports = Dragon;
+
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
